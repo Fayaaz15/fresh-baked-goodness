@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fresh Baked Goodness — Artisan Bakery, Chennai</title>
+  <meta name="description" content="Chennai's finest egg-free artisan bakery. Custom cakes, petite desserts, wedding cakes & more. 100% vegetarian & vegan options. Order online or visit us in Mylapore." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@300;400;500;600&family=Pinyon+Script&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ======= SCROLL PROGRESS BAR ======= -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- ======= NAVIGATION ======= -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-script">Fresh Baked</span>
+        <span class="logo-word">GOODNESS</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#bestsellers" class="nav-link">Menu</a></li>
+        <li><a href="#about" class="nav-link">Our Story</a></li>
+        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#visit" class="nav-link">Visit</a></li>
+        <li><a href="#order" class="nav-link nav-cta">Order Now</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ======= HERO SECTION ======= -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+      <img
+        src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=1800&q=85&auto=format"
+        alt="Luxury layered cake"
+        class="hero-img"
+        id="heroImg"
+      />
+    </div>
+
+    <!-- Floating decorative elements -->
+    <div class="deco-circle deco-1"></div>
+    <div class="deco-circle deco-2"></div>
+    <div class="deco-line deco-line-1"></div>
+    <div class="deco-line deco-line-2"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge reveal-up" style="--delay:0.2s">
+        <span>✦ Egg-Free · Vegetarian · Vegan ✦</span>
+      </div>
+      <h1 class="hero-title reveal-up" style="--delay:0.4s">
+        <span class="title-script">Crafted with</span>
+        <span class="title-main">Pure Goodness</span>
+      </h1>
+      <p class="hero-sub reveal-up" style="--delay:0.6s">
+        Chennai's finest artisan bakery — celebrating every occasion with handcrafted cakes,<br class="desktop-br" /> petite desserts &amp; custom creations, all 100% egg-free.
+      </p>
+      <div class="hero-ctas reveal-up" style="--delay:0.8s">
+        <a href="#order" class="btn btn-primary">
+          <span>Order a Cake</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#bestsellers" class="btn btn-ghost">Explore Menu</a>
+      </div>
+      <div class="hero-stats reveal-up" style="--delay:1s">
+        <div class="stat">
+          <span class="stat-num">10+</span>
+          <span class="stat-label">Years of Joy</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">5000+</span>
+          <span class="stat-label">Happy Customers</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Egg-Free</span>
+        </div>
+      </div>
+    </div>
+
+    <a href="#bestsellers" class="hero-scroll-cue">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </a>
+  </section>
+
+  <!-- ======= MARQUEE STRIP ======= -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>Custom Cakes</span><span class="marquee-dot">✦</span>
+      <span>Wedding Cakes</span><span class="marquee-dot">✦</span>
+      <span>Petite Desserts</span><span class="marquee-dot">✦</span>
+      <span>Corporate Orders</span><span class="marquee-dot">✦</span>
+      <span>Vegan Options</span><span class="marquee-dot">✦</span>
+      <span>Elaneer Pudding</span><span class="marquee-dot">✦</span>
+      <span>Birthday Cakes</span><span class="marquee-dot">✦</span>
+      <span>Anniversary Specials</span><span class="marquee-dot">✦</span>
+      <!-- Duplicate for seamless loop -->
+      <span>Custom Cakes</span><span class="marquee-dot">✦</span>
+      <span>Wedding Cakes</span><span class="marquee-dot">✦</span>
+      <span>Petite Desserts</span><span class="marquee-dot">✦</span>
+      <span>Corporate Orders</span><span class="marquee-dot">✦</span>
+      <span>Vegan Options</span><span class="marquee-dot">✦</span>
+      <span>Elaneer Pudding</span><span class="marquee-dot">✦</span>
+      <span>Birthday Cakes</span><span class="marquee-dot">✦</span>
+      <span>Anniversary Specials</span><span class="marquee-dot">✦</span>
+    </div>
+  </div>
+
+  <!-- ======= BEST SELLERS ======= -->
+  <section class="section bestsellers" id="bestsellers">
+    <div class="section-container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">✦ Our Menu ✦</span>
+        <h2 class="section-title">Best Loved Creations</h2>
+        <p class="section-sub">Handcrafted with love, every single day.</p>
+      </div>
+
+      <div class="products-grid">
+
+        <div class="product-card reveal-card" style="--delay:0s">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1602351447937-745cb720612f?w=600&q=80&auto=format" alt="Cookie Crumble Cake" loading="lazy" />
+            <div class="card-badge">Bestseller</div>
+            <div class="card-overlay">
+              <a href="#order" class="card-order-btn">Order Now</a>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-name">Cookie Crumble Cake</h3>
+            <p class="card-desc">Buttery crumble, rich ganache, soft cake layers — pure indulgence.</p>
+            <div class="card-footer">
+              <span class="card-price">From ₹950</span>
+              <button class="card-btn" onclick="openOrder('Cookie Crumble Cake')">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal-card" style="--delay:0.1s">
+          <div class="card-img-wrap">
+            <img src="images/dc.jpg" alt="Dark Chocolate Brahma" loading="lazy" />
+            <div class="card-badge new-badge">Fan Favourite</div>
+            <div class="card-overlay">
+              <a href="#order" class="card-order-btn">Order Now</a>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-name">Dark Chocolate Brahma</h3>
+            <p class="card-desc">Intense Belgian chocolate, velvety mousse, fresh strawberries.</p>
+            <div class="card-footer">
+              <span class="card-price">From ₹1,150</span>
+              <button class="card-btn" onclick="openOrder('Dark Chocolate Brahma')">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal-card" style="--delay:0.2s">
+          <div class="card-img-wrap">
+            <img src="images/rv.webp" alt="Red Velvet Cake" loading="lazy" />
+            <div class="card-overlay">
+              <a href="#order" class="card-order-btn">Order Now</a>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-name">Red Velvet Cake</h3>
+            <p class="card-desc">Velvety cocoa sponge, rich cream cheese frosting, soft crimson layers, delicate vanilla finish.</p>
+            <div class="card-footer">
+              <span class="card-price">From ₹480</span>
+              <button class="card-btn" onclick="openOrder('Red Velvet Cake')">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal-card" style="--delay:0.3s">
+          <div class="card-img-wrap">
+            <img src="images/rb.png" alt="Orange Chocolate Brahma" loading="lazy" />
+            <div class="card-badge" style="background: var(--gold)">Seasonal</div>
+            <div class="card-overlay">
+              <a href="#order" class="card-order-btn">Order Now</a>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-name">Ebony Ivory Raspberry Cake</h3>
+            <p class="card-desc">Layers of dark and white chocolate mousse, tart raspberry compote, silky cream, delicate cocoa finish.</p>
+            <div class="card-footer">
+              <span class="card-price">From ₹1,050</span>
+              <button class="card-btn" onclick="openOrder('Ebony Ivory Raspberry Cake')">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="section-cta reveal-up">
+        <a href="https://freshbakedgoodness.com/order-online" target="_blank" class="btn btn-outline">View Full Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= SIGNATURE CAKES ======= -->
+  <section class="section signature-section" id="signature">
+    <div class="sig-bg-img">
+      <img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=1600&q=80&auto=format" alt="Signature cakes background" />
+      <div class="sig-overlay"></div>
+    </div>
+    <div class="section-container">
+      <div class="sig-content">
+        <div class="sig-text reveal-up">
+          <span class="section-tag light">✦ Signature Collection ✦</span>
+          <h2 class="section-title light">Made for Moments<br /><em>Worth Remembering</em></h2>
+          <p class="section-sub light">From intimate birthday celebrations to grand wedding tiers — every cake is a handcrafted masterpiece, made to order, made with joy.</p>
+          <div class="sig-features">
+            <div class="sig-feat">
+              <div class="sig-feat-icon">🎂</div>
+              <div>
+                <strong>Birthday &amp; Anniversaries</strong>
+                <span>Personalised designs for every age and milestone</span>
+              </div>
+            </div>
+            <div class="sig-feat">
+              <div class="sig-feat-icon">💍</div>
+              <div>
+                <strong>Weddings &amp; Multi-Tier</strong>
+                <span>Elegant showpieces crafted for your big day</span>
+              </div>
+            </div>
+            <div class="sig-feat">
+              <div class="sig-feat-icon">🏢</div>
+              <div>
+                <strong>Corporate Orders</strong>
+                <span>Branded, bulk &amp; gifting solutions for businesses</span>
+              </div>
+            </div>
+          </div>
+          <a href="#order" class="btn btn-primary">Start Your Custom Order</a>
+        </div>
+        <div class="sig-showcase reveal-up" style="--delay:0.3s">
+          <div class="showcase-card sc-1">
+            <img src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?w=400&q=80&auto=format" alt="Wedding cake" loading="lazy" />
+            <span>Wedding Cake</span>
+          </div>
+          <div class="showcase-card sc-2">
+            <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=400&q=80&auto=format" alt="Birthday cake" loading="lazy" />
+            <span>Birthday Special</span>
+          </div>
+          <div class="showcase-card sc-3">
+            <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=400&q=80&auto=format" alt="Celebration cake" loading="lazy" />
+            <span>Celebration</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= ABOUT SECTION ======= -->
+  <section class="section about-section" id="about">
+    <div class="section-container">
+      <div class="about-grid">
+        <div class="about-images reveal-up">
+          <div class="about-img-main">
+            <img src="images/oss.webp" alt="Bakery interior" loading="lazy" />
+          </div>
+          <div class="about-img-accent">
+            <img src="images/os.webp" alt="Baker at work" loading="lazy" />
+          </div>
+          <div class="about-badge-float">
+            <span class="badge-num">10+</span>
+            <span class="badge-text">Years of Craft</span>
+          </div>
+        </div>
+
+        <div class="about-text reveal-up" style="--delay:0.2s">
+          <span class="section-tag">✦ Our Story ✦</span>
+          <h2 class="section-title">Born from a<br /><em>Passion for Purity</em></h2>
+          <p>Fresh Baked Goodness began with a simple, unwavering belief — that extraordinary desserts don't need eggs to be extraordinary. Rooted in Chennai's Mylapore neighbourhood, we've spent over a decade proving that egg-free baking can be just as rich, indulgent, and memorable as anything else.</p>
+          <p>Every cake we craft is a labour of love. We source only the finest ingredients, honour the trust of our customers, and refuse to compromise on taste or texture — ever.</p>
+          <div class="about-values">
+            <div class="value-pill">🌱 100% Egg-Free</div>
+            <div class="value-pill">🐄 Vegetarian</div>
+            <div class="value-pill">🌿 Vegan Options</div>
+            <div class="value-pill">❤️ Made with Love</div>
+          </div>
+          <a href="#visit" class="btn btn-outline">Visit Our Bakery</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= TESTIMONIALS ======= -->
+  <section class="section testimonials-section" id="testimonials">
+    <div class="section-container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">✦ Customer Love ✦</span>
+        <h2 class="section-title">What Our Guests Say</h2>
+        <div class="stars-display">★★★★★</div>
+      </div>
+
+      <div class="testimonials-track-wrap">
+        <div class="testimonials-track" id="testimonialsTrack">
+
+          <div class="testi-card">
+            <div class="testi-quote">"</div>
+            <p>The Dark Chocolate Brahma was absolutely divine. You'd never guess it's egg-free — the texture and richness are incomparable. We order from FBG for every family celebration now.</p>
+            <div class="testi-author">
+              <div class="testi-avatar">P</div>
+              <div>
+                <strong>Priya Venkataraman</strong>
+                <span>Mylapore, Chennai</span>
+              </div>
+              <div class="testi-stars">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-quote">"</div>
+            <p>Ordered a custom 3-tier wedding cake and the team was so patient with every detail. The cake looked like art and tasted even better. Our guests couldn't stop asking about it.</p>
+            <div class="testi-author">
+              <div class="testi-avatar">S</div>
+              <div>
+                <strong>Sneha &amp; Arjun</strong>
+                <span>Wedding Order</span>
+              </div>
+              <div class="testi-stars">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-quote">"</div>
+            <p>As a vegan, finding a quality bakery in Chennai has always been hard. Fresh Baked Goodness changed that completely. The Elaneer Pudding is unlike anything I've ever had.</p>
+            <div class="testi-author">
+              <div class="testi-avatar">R</div>
+              <div>
+                <strong>Rahul Krishnan</strong>
+                <span>T. Nagar, Chennai</span>
+              </div>
+              <div class="testi-stars">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-quote">"</div>
+            <p>Our corporate event dessert table was a showstopper. FBG handled a bulk order of 200 desserts without a single miss. Professional, beautiful, and absolutely delicious.</p>
+            <div class="testi-author">
+              <div class="testi-avatar">A</div>
+              <div>
+                <strong>Ananya Iyer</strong>
+                <span>Corporate Order</span>
+              </div>
+              <div class="testi-stars">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-quote">"</div>
+            <p>The Cookie Crumble Cake has been our family's birthday tradition for 5 years now. My kids request it every single year — it's irreplaceable!</p>
+            <div class="testi-author">
+              <div class="testi-avatar">M</div>
+              <div>
+                <strong>Meera Sundaram</strong>
+                <span>Adyar, Chennai</span>
+              </div>
+              <div class="testi-stars">★★★★★</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="testi-nav">
+        <button class="testi-btn" id="testiPrev" aria-label="Previous">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <div class="testi-dots" id="testiDots"></div>
+        <button class="testi-btn" id="testiNext" aria-label="Next">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= ORDER SECTION ======= -->
+  <section class="section order-section" id="order">
+    <div class="section-container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">✦ Place Your Order ✦</span>
+        <h2 class="section-title">Order Your Perfect Cake</h2>
+        <p class="section-sub">Choose, customise, celebrate.</p>
+      </div>
+
+      <div class="order-ui reveal-up" style="--delay:0.2s">
+        <div class="order-sidebar">
+          <h3 class="order-sidebar-title">Your Selection</h3>
+          <div class="order-items" id="orderItems">
+            <div class="order-empty">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 9m5-9v9m4-9v9m5-9l2 9"/></svg>
+              <p>No items yet.<br />Add a cake below!</p>
+            </div>
+          </div>
+          <div class="order-total" id="orderTotal" style="display:none">
+            <span>Total</span>
+            <span id="totalAmount">₹0</span>
+          </div>
+          <a href="https://wa.me/9962104626?text=Hi!%20I'd%20like%20to%20place%20a%20cake%20order." target="_blank" class="btn btn-primary btn-whatsapp" id="whatsappBtn" style="display:none">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Order via WhatsApp
+          </a>
+        </div>
+
+        <div class="order-products">
+          <div class="order-product-card" data-name="Cookie Crumble Cake" data-price="950">
+            <img src="https://images.unsplash.com/photo-1602351447937-745cb720612f?w=300&q=75&auto=format" alt="Cookie Crumble Cake" />
+            <div class="op-info">
+              <h4>Cookie Crumble Cake</h4>
+              <span class="op-price">₹950</span>
+            </div>
+            <div class="quantity-ctrl">
+              <button class="qty-btn minus" aria-label="Decrease">−</button>
+              <span class="qty-num">0</span>
+              <button class="qty-btn plus" aria-label="Increase">+</button>
+            </div>
+          </div>
+
+          <div class="order-product-card" data-name="Dark Chocolate Brahma" data-price="1150">
+            <img src="images/dc.jpg" alt="Dark Chocolate Brahma" />
+            <div class="op-info">
+              <h4>Dark Chocolate Brahma</h4>
+              <span class="op-price">₹1,150</span>
+            </div>
+            <div class="quantity-ctrl">
+              <button class="qty-btn minus" aria-label="Decrease">−</button>
+              <span class="qty-num">0</span>
+              <button class="qty-btn plus" aria-label="Increase">+</button>
+            </div>
+          </div>
+
+          <div class="order-product-card" data-name="Red Velvet cake" data-price="480">
+            <img src="images/rv.webp" alt="Red Velvet cake" />
+            <div class="op-info">
+              <h4>Red velvet Cake</h4>
+              <span class="op-price">₹480</span>
+            </div>
+            <div class="quantity-ctrl">
+              <button class="qty-btn minus" aria-label="Decrease">−</button>
+              <span class="qty-num">0</span>
+              <button class="qty-btn plus" aria-label="Increase">+</button>
+            </div>
+          </div>
+
+          <div class="order-product-card" data-name="Ebony Ivory Raspberry Cake" data-price="1050">
+            <img src="images/rb.png" alt="Ebony Ivory Raspberry Cake" />
+            <div class="op-info">
+              <h4>Ebony Ivory Raspberry Cake</h4>
+              <span class="op-price">₹1,050</span>
+            </div>
+            <div class="quantity-ctrl">
+              <button class="qty-btn minus" aria-label="Decrease">−</button>
+              <span class="qty-num">0</span>
+              <button class="qty-btn plus" aria-label="Increase">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="custom-order-banner reveal-up">
+        <div class="cob-text">
+          <h3>Need something truly unique?</h3>
+          <p>Custom cakes, food scapes, table scapes &amp; more — designed just for you.</p>
+        </div>
+        <a href="https://wa.me/919962104626?text=Hi!%20I'd%20like%20to%20discuss%20a%20custom%20order." target="_blank" class="btn btn-primary btn-whatsapp">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Chat With Us
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= GALLERY SECTION ======= -->
+  <section class="section gallery-section" id="gallery">
+    <div class="section-container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">✦ Our Gallery ✦</span>
+        <h2 class="section-title">A Feast for the Eyes</h2>
+        <p class="section-sub">Every creation tells a story.</p>
+      </div>
+
+      <div class="gallery-masonry reveal-up" style="--delay:0.2s" id="galleryGrid">
+        <div class="gallery-item gi-tall">
+          <img src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?w=500&q=80&auto=format" alt="Gallery 1" loading="lazy" />
+          <div class="gallery-hover"><span>Wedding Collection</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=500&q=80&auto=format" alt="Gallery 2" loading="lazy" />
+          <div class="gallery-hover"><span>Celebration Cakes</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=500&q=80&auto=format" alt="Gallery 3" loading="lazy" />
+          <div class="gallery-hover"><span>Birthday Specials</span></div>
+        </div>
+        <div class="gallery-item gi-wide">
+          <img src="images/cc.png" alt="Gallery 4" loading="lazy" />
+          <div class="gallery-hover"><span>Petite Desserts</span></div>
+        </div>
+        <div class="gallery-item gi-tall">
+          <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=500&q=80&auto=format" alt="Gallery 5" loading="lazy" />
+          <div class="gallery-hover"><span>Artisan Creations</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=500&q=80&auto=format" alt="Gallery 6" loading="lazy" />
+          <div class="gallery-hover"><span>Custom Designs</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1517427294546-5aa121f68e8a?w=500&q=80&auto=format" alt="Gallery 7" loading="lazy" />
+          <div class="gallery-hover"><span>Chocolate Heaven</span></div>
+        </div>
+        <div class="gallery-item gi-wide">
+          <img src="images/bc.png" alt="Gallery 8" loading="lazy" />
+          <div class="gallery-hover"><span>Corporate Orders</span></div>
+        </div>
+      </div>
+
+      <!-- Lightbox -->
+      <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">✕</button>
+        <img src="" alt="" id="lightboxImg" />
+        <span id="lightboxCaption"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= INSTAGRAM SECTION ======= -->
+  <section class="section instagram-section">
+    <div class="section-container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">✦ Follow Along ✦</span>
+        <h2 class="section-title">@freshbakedgoodness</h2>
+        <p class="section-sub">Join our community of dessert lovers on Instagram.</p>
+      </div>
+      <div class="insta-grid reveal-up" style="--delay:0.2s">
+        <a href="https://instagram.com/freshbakedgoodness" target="_blank" class="insta-tile">
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=75&auto=format" alt="Instagram 1" loading="lazy" />
+          <div class="insta-hover"><svg viewBox="0 0 24 24" fill="white"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></div>
+        </a>
+        <a href="https://instagram.com/freshbakedgoodness" target="_blank" class="insta-tile">
+          <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400&q=75&auto=format" alt="Instagram 2" loading="lazy" />
+          <div class="insta-hover"><svg viewBox="0 0 24 24" fill="white"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></div>
+        </a>
+        <a href="https://instagram.com/freshbakedgoodness" target="_blank" class="insta-tile">
+          <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=400&q=75&auto=format" alt="Instagram 3" loading="lazy" />
+          <div class="insta-hover"><svg viewBox="0 0 24 24" fill="white"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></div>
+        </a>
+        <a href="https://instagram.com/freshbakedgoodness" target="_blank" class="insta-tile">
+          <img src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?w=400&q=75&auto=format" alt="Instagram 4" loading="lazy" />
+          <div class="insta-hover"><svg viewBox="0 0 24 24" fill="white"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></div>
+        </a>
+        <a href="https://instagram.com/freshbakedgoodness" target="_blank" class="insta-tile">
+          <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=400&q=75&auto=format" alt="Instagram 5" loading="lazy" />
+          <div class="insta-hover"><svg viewBox="0 0 24 24" fill="white"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></div>
+        </a>
+        <a href="https://instagram.com/freshbakedgoodness" target="_blank" class="insta-tile insta-cta-tile">
+          <div class="insta-follow-inner">
+            <svg viewBox="0 0 24 24" fill="var(--gold)"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            <span>Follow Us</span>
+            <strong>@freshbakedgoodness</strong>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= VISIT SECTION ======= -->
+  <section class="section visit-section" id="visit">
+    <div class="section-container">
+      <div class="visit-grid">
+        <div class="visit-info reveal-up">
+          <span class="section-tag">✦ Find Us ✦</span>
+          <h2 class="section-title">Visit Our Bakery</h2>
+          <p>Step into our warm, welcoming space in the heart of Mylapore. Taste before you order, explore our display cakes, and experience the magic of Fresh Baked Goodness in person.</p>
+
+          <div class="visit-details">
+            <div class="visit-detail">
+              <div class="vd-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              </div>
+              <div>
+                <strong>Address</strong>
+                <span>New No: 22, Old No: 40, 3rd Street,<br />East Abhiramapuram, Mylapore,<br />Chennai</span>
+              </div>
+            </div>
+            <div class="visit-detail">
+              <div class="vd-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              </div>
+              <div>
+                <strong>Opening Hours</strong>
+                <span>Monday – Saturday: 9 AM – 8 PM<br />Sunday: 10 AM – 6 PM</span>
+              </div>
+            </div>
+            <div class="visit-detail">
+              <div class="vd-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              </div>
+              <div>
+                <strong>Call / WhatsApp</strong>
+                <span><a href="tel:9962104626">+91 99621 04626</a></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="visit-ctas">
+            <a href="https://maps.google.com/?q=East+Abhiramapuram,Mylapore,Chennai" target="_blank" class="btn btn-primary">Get Directions</a>
+            <a href="https://wa.me/919962104626" target="_blank" class="btn btn-ghost btn-whatsapp-ghost">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              WhatsApp Us
+            </a>
+          </div>
+        </div>
+
+        <div class="visit-map reveal-up" style="--delay:0.3s">
+          <div class="map-frame">
+            <iframe
+              title="Fresh Baked Goodness Location"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.239!2d80.2674!3d13.0366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267b8f7bdb0a9%3A0xa5e8bfc7e6bcbb47!2sMylapore%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1234567890"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <div class="map-pin-label">
+              <span>🎂</span>
+              <strong>Fresh Baked Goodness</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= FINAL CTA BANNER ======= -->
+  <section class="cta-banner">
+    <div class="cta-banner-bg">
+      <img src="https://images.unsplash.com/photo-1557925923-33b27f6b5e88?w=1600&q=80&auto=format" alt="CTA background" />
+      <div class="cta-banner-overlay"></div>
+    </div>
+    <div class="cta-banner-content reveal-up">
+      <span class="section-tag light">✦ Let's Create Something Beautiful ✦</span>
+      <h2 class="cta-title">Your Dream Cake<br /><em>Awaits</em></h2>
+      <p>Every celebration deserves something extraordinary. Let's craft yours together.</p>
+      <div class="cta-banner-btns">
+        <a href="https://wa.me/919962104626?text=Hi!%20I'd%20like%20to%20order%20a%20cake." target="_blank" class="btn btn-primary btn-whatsapp btn-lg">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Order via WhatsApp
+        </a>
+        <a href="tel:9962104626" class="btn btn-ghost btn-lg">Call Us Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-script">Fresh Baked</span>
+            <span class="logo-word">GOODNESS</span>
+          </div>
+          <p class="footer-tagline">Chennai's finest egg-free artisan bakery, crafting moments of pure joy since 2013.</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/FreshBakedGoodness/" target="_blank" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="https://instagram.com/freshbakedgoodness" target="_blank" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://twitter.com/freshbakedgoodn" target="_blank" aria-label="Twitter">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#bestsellers">Menu</a></li>
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#visit">Visit Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Order Types</h4>
+          <ul>
+            <li><a href="#order">Birthday Cakes</a></li>
+            <li><a href="#order">Wedding Cakes</a></li>
+            <li><a href="#order">Corporate Orders</a></li>
+            <li><a href="#order">Custom Designs</a></li>
+            <li><a href="https://freshbakedgoodness.com/order-online" target="_blank">Online Store</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact-col">
+          <h4>Get in Touch</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            <span>New No: 22, 3rd Street, East Abhiramapuram, Mylapore, Chennai</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            <a href="tel:9962104626">+91 99621 04626</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 Fresh Baked Goodness. All Rights Reserved. Designed with ❤️ in Chennai.</p>
+        <div class="footer-legal">
+          <a href="https://freshbakedgoodness.com/fresh-baked-goodness-privacy-policy" target="_blank">Privacy Policy</a>
+          <a href="https://freshbakedgoodness.com/refund-policy" target="_blank">Refund Policy</a>
+          <a href="https://freshbakedgoodness.com/tnc" target="_blank">Terms &amp; Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/919962104626?text=Hi!%20I'd%20like%20to%20order%20a%20cake%20from%20Fresh%20Baked%20Goodness." target="_blank" class="floating-whatsapp" aria-label="WhatsApp Order">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="wa-tooltip">Order Now</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
